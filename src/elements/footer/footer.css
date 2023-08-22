@@ -1,0 +1,19 @@
+.footer {
+    background-color: #000D12;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+.brand-name {
+    width: 75px;
+    height: 30px;
+}
+
+.derechos {
+    color: #09282E;
+    font-size: 16px;
+    font-weight: 500;
+
+}
