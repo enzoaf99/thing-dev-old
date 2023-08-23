@@ -1,3 +1,80 @@
-.main{
-    padding: 80px 80px 0 80px;
+.main {
+    padding: 100px 15% 0 15%;
+}
+
+.title-cont {
+    display: flex;
+    align-items: center;
+}
+
+.img-title {
+    height: 50px;
+    width: 50px;
+}
+
+.title-service {
+    color: #7BCAE8;
+    padding-left: 10px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.desc-cont {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.desc-p {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.services-info {}
+
+.services-p {
+    color: #7BCAE8;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.services-list {
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center
+}
+
+.card-service {
+    width: 400px;
+    border-radius: 5px;
+    background: #000D12;
+    box-shadow: 0px 2px 4px 1px rgba(115, 115, 115, 0.25);
+    padding: 25px;
+    margin: 20px 20px;
+}
+
+.card-service-h3 {
+    color: #7BCAE8;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.card-service-p {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
