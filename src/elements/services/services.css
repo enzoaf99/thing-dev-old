@@ -1,5 +1,16 @@
 .main {
-    padding: 100px 15% 0 15%;
+    padding: 100px 0 0 0;
+    background-image: linear-gradient(
+            to bottom right,
+            #000000 0%,
+            #05191c 50%
+    );
+    background-size: 200% 200%;
+    animation: movimiento 5s linear infinite alternate;
+}
+
+.cont-service{
+    padding: 15px 15%;
 }
 
 .title-cont {
@@ -30,37 +41,43 @@
     line-height: 30px;
 }
 
-.services-info {}
+.services-info {
+
+}
+
+@keyframes movimiento {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}
 
 .services-p {
     color: #7BCAE8;
     font-size: 18px;
-    padding-bottom: 30px;
+    padding: 30px 0 30px 15%;
 }
+
 
 .services-list {
-    padding-bottom: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    justify-items: center
+    padding: 80px 10%;
 }
 
-.card-service {
-    width: 400px;
-    border-radius: 5px;
-    background: #000D12;
-    box-shadow: 0px 2px 4px 1px rgba(115, 115, 115, 0.25);
-    padding: 25px;
-    margin: 20px 20px;
+.service-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.card-service-h3 {
+.service-item-info {
+    max-width: 300px;
+}
+
+.service-item-title{
     color: #7BCAE8;
-    text-align: center;
-    font-family: Inter;
+    text-align: left;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
@@ -69,12 +86,26 @@
     padding-bottom: 10px;
 }
 
-.card-service-p {
+.service-item-desc{
     color: #FFF;
-    text-align: center;
-    font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    text-align: left;
     line-height: normal;
 }
+
+.service-item-img{
+    height: 200px;
+}
+
+.contact-p{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
