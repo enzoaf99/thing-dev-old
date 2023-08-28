@@ -60,10 +60,10 @@ export function Contact() {
         <div className="contc-social">
           <h2 className="subtile-cont">Nuestras redes sociales</h2>
           <div className="social-cont">
-            <a target="blank" href=""><img className="img-social" src={insta} alt="" /></a>
-            <a target="blank" href=""><img className="img-social" src={face} alt="" /></a>
-            <a target="blank" href=""><img className="img-social" src={tw} alt="" /></a>
-            <a target="blank" href="https://www.linkedin.com/company/thing-dev/"><img className="img-social" src={li} alt="" /></a>
+            <a target="blank" href="https://www.instagram.com/thing.dev/"><img className="img-social" src={insta} alt="Instagram" /></a>
+            <a target="blank" href="https://www.instagram.com/thing.dev/"><img className="img-social" src={face} alt="Facebook" /></a>
+            <a target="blank" href="https://www.instagram.com/thing.dev/"><img className="img-social" src={tw} alt="Twitter" /></a>
+            <a target="blank" href="https://www.linkedin.com/company/thing-dev/"><img className="img-social" src={li} alt="Linkedin" /></a>
           </div>
         </div>
       </div>

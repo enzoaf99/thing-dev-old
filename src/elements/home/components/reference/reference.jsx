@@ -74,16 +74,16 @@ export function Reference() {
                     <div className="cont-logos-carousel">
                         <Slider {...settings}>
                             <div>
-                                <a className="cont-img" target="_blank" href="http://blueapp.com.ar"><img className="img-logo1" src={Brand1} alt="" /></a>
+                                <a className="cont-img" target="_blank" href="http://blueapp.com.ar"><img className="img-logo1" src={Brand1} alt="BlueApp" /></a>
                             </div>
                             <div>
-                                <a className="cont-img" target="_blank" href="http://pilonesgyh.com.ar"><img className="img-logo2" src={Brand4} alt="" /></a>
+                                <a className="cont-img" target="_blank" href="http://pilonesgyh.com.ar"><img className="img-logo2" src={Brand4} alt="PilonesGYH" /></a>
                             </div>
                             <div>
-                                <a className="cont-img" href=""><img className="img-logo3" src={Brand3} alt="" /></a>
+                                <a className="cont-img" href="https://atentomusico.com/"><img className="img-logo3" src={Brand3} alt="Atento Musico" /></a>
                             </div>
                             <div>
-                                <a className="cont-img" href=""><img className="img-logo4" src={Brand2} alt="" /></a>
+                                <a className="cont-img" href="http://gestionapp.com/"><img className="img-logo4" src={Brand2} alt="GestionApp" /></a>
                             </div>
                         </Slider>
                     </div>

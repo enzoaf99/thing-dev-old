@@ -32,7 +32,7 @@ export function Hero() {
             </Fade>
             <Fade duration={2000}>
                 <div>
-                    <img className="img-hero" src={ImagenHero} />
+                    <img className="img-hero" src={ImagenHero} alt="Hero"/>
                 </div>
             </Fade>
         </main>

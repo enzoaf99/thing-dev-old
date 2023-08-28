@@ -22,7 +22,7 @@ export function Us() {
           </div>
         </Fade>
         <Fade duration={2000}>
-          <img className="info-img-us" src={AboutUs} alt="" />
+          <img className="info-img-us" src={AboutUs} alt="Nosotros" />
         </Fade>
       </div>
       <Fade duration={2000}>

@@ -45,14 +45,14 @@ export function Diseno() {
                                     de una web totalmente
                                     personalizada, para que tu pagina no sea genérica mas.</p>
                             </div>
-                            <img src={disenoimg} className='service-item-img'/>
+                            <img src={disenoimg} className='service-item-img' alt="Diseño"/>
                         </div>
                     </div>
                 </Fade>
                 <Fade duration={4000}>
                     <div className='services-list'>
                         <div className='service-item'>
-                            <img src={repsonsiveimg} className='service-item-img'/>
+                            <img src={repsonsiveimg} className='service-item-img' alt="Responsive"/>
                             <div className='service-item-info'>
                                 <h3 className='service-item-title'>Web responsive</h3>
                                 <p className='service-item-desc'>Diseños que se adaptan automáticamente a diferentes
@@ -72,14 +72,14 @@ export function Diseno() {
                                     de
                                     esta web de forma gratuita por un año.</p>
                             </div>
-                            <img src={hostingimg} className='service-item-img'/>
+                            <img src={hostingimg} className='service-item-img' alt="Hosting"/>
                         </div>
                     </div>
                 </Fade>
                 <Fade duration={4000}>
                     <div className='services-list'>
                         <div className='service-item'>
-                            <img src={dominioimg} className='service-item-img'/>
+                            <img src={dominioimg} className='service-item-img' alt="Dominio"/>
                             <div className='service-item-info'>
                                 <h3 className='service-item-title'>Dominio</h3>
                                 <p className='service-item-desc'>Incluimos el dominio (Por ejemplo: MiDominio.com) para
@@ -98,7 +98,7 @@ export function Diseno() {
                                     solucionar cualquier inconveniente o duda que se presente post implementación de tu
                                     web.</p>
                             </div>
-                            <img src={disenoimg} className='service-item-img'/>
+                            <img src={disenoimg} className='service-item-img' alt="Soporte"/>
                         </div>
                     </div>
                 </Fade>
