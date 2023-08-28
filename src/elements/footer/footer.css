@@ -7,12 +7,17 @@
 }
 
 .brand-name {
-    width: 75px;
-    height: 30px;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Serif Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .derechos {
-    color: #09282E;
+    color: white;
     font-size: 16px;
     font-weight: 500;
 

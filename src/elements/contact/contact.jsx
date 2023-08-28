@@ -49,7 +49,7 @@ export function Contact() {
       <h2 className="title-cont">Contacto</h2>
       <div className="container-cont">
         <div className="contc-form">
-          <h2 className="subtile-cont">Déjanos tu mensaje</h2>
+          <h2 className="subtile-form">Déjanos tu mensaje</h2>
           <form ref={form} onSubmit={sendEmail} className="cont-form">
             <input className="input-datos" type="text" required name="user_name" placeholder="Tu nombre completo..." />
             <input className="input-datos" type="email" required name="user_email" placeholder="Tu Email..." />
@@ -58,7 +58,7 @@ export function Contact() {
           </form>
         </div>
         <div className="contc-social">
-          <h2 className="subtile-cont">Nuestras redes sociales</h2>
+          <h2 className="subtitle-social">Nuestras redes sociales</h2>
           <div className="social-cont">
             <a target="blank" href="https://www.instagram.com/thing.dev/"><img className="img-social" src={insta} alt="Instagram" /></a>
             <a target="blank" href="https://www.instagram.com/thing.dev/"><img className="img-social" src={face} alt="Facebook" /></a>

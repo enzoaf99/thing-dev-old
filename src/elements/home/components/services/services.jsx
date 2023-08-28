@@ -3,7 +3,9 @@ import Fade from 'react-reveal/Fade';
 import ImagenServicio1 from '../../../../assets/ImagenServicio1.png'
 import ImagenServicio2 from '../../../../assets/ImagenServicio2.png'
 import ImagenServicio3 from '../../../../assets/ImagenServicio3.png'
-
+import iconservicio1 from '../../../../assets/web0.png'
+import iconservicio2 from '../../../../assets/database.png'
+import iconservicio3 from '../../../../assets/fix.png'
 export function Services() {
     return (
         <section className="service" id="service">
@@ -14,19 +16,19 @@ export function Services() {
             <Fade duration={2000}>
                 <div className="card-list">
                     <div className="card">
-                        <img className="card-icon" src="./src/assets/web0.png" alt="Diseño" />
+                        <img className="card-icon" src={iconservicio1} alt="Diseño" />
                         <p className="card-title">Diseño web desde Ø</p>
                         <p className="card-info">Contarás con asesoramiento de nuestro equipo para que tu página se adapte a las necesidades y objetivo de tu proyecto/negocio.</p>
-                        <a href="#" className="card-plus">+ info</a>
+                        <a href="/diseno-web" className="card-plus">+ info</a>
                     </div>
                     <div className="card">
-                        <img className="card-icon" src="./src/assets/database.png" alt="Hosting" />
+                        <img className="card-icon" src={iconservicio2} alt="Hosting" />
                         <p className="card-title">Hosting</p>
                         <p className="card-info">Ofrecemos alojamiento para tu pagina web y asesoramiento para las instalaciones o migraciones de tus proyectos.</p>
                         <a href="#" className="card-plus">+ info</a>
                     </div>
                     <div className="card">
-                        <img className="card-icon" src="./src/assets/fix.png" alt="Mantenimiento" />
+                        <img className="card-icon" src={iconservicio3} alt="Mantenimiento" />
                         <p className="card-title">Mantenimiento y mejoras</p>
                         <p className="card-info">Si ya tienes una página web y necesita manteniendo, soporte o mejoras, tenemos un equipo de desarrollo que se encargará de la puesta a punto.</p>
                         <a href="#" className="card-plus">+ info</a>
