@@ -7,5 +7,8 @@
 
 html{
     scroll-behavior: smooth;
-    background: #000D12;
+}
+
+body{
+    background-color: #000D12;
 }
