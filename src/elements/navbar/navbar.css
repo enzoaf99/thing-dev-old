@@ -38,17 +38,15 @@
 
 .nav-menu-link {
     padding: 8px 12px;
-    border-radius: 3px;
     color: white;
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .nav-menu-link:hover,
 .active {
-    background-color: white;
-    transition: 0.5s;
-    color: #000D12;
+    border-bottom: 3px solid #4E6EF1
 }
 
 /* TOGGLE */
