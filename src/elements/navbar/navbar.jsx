@@ -11,6 +11,11 @@ export function Navbar() {
         </button>
         <ul className="nav-menu">
           <li className="nav-menu-item">
+            <a href="#hero" className="nav-menu-link active">
+              Inicio
+            </a>
+          </li>
+          <li className="nav-menu-item">
             <a href="#service" className="nav-menu-link">
               Servicios
             </a>
@@ -18,6 +23,11 @@ export function Navbar() {
           <li className="nav-menu-item">
             <a href="#us" className="nav-menu-link">
               Nosotros
+            </a>
+          </li>
+          <li className="nav-menu-item">
+            <a href="#reference" className="nav-menu-link">
+              Clientes
             </a>
           </li>
           <li className="nav-menu-item">
@@ -45,5 +55,34 @@ export function ResponsiveNav() {
         navToggle.setAttribute("aria-label", "Abrir menú");
       }
     });
+  });
+}
+
+
+export function ActiveLinkNav() {
+  window.addEventListener("load", function () {
+
+    this.window.onscroll = () => {
+      function obtenerIdDeSeccion() {
+        const secciones = document.querySelectorAll("section"); // Cambia "section" al selector que estés utilizando para tus secciones
+        let seccionActual = null;
+
+        for (const seccion of secciones) {
+          const rect = seccion.getBoundingClientRect();
+
+          if (rect.top <= 70 && rect.bottom >= 70) {
+            seccionActual = seccion.id;
+            break; // Rompe el bucle una vez que se encuentra la sección actual
+          }
+        }
+
+        return seccionActual;
+      }
+
+      // Uso de la función para obtener el ID de la sección actual
+      const idDeSeccionActual = obtenerIdDeSeccion();
+      document.querySelector("header nav ul li a.active").classList.remove('active')
+      document.querySelector("[href*="+ idDeSeccionActual +"]").classList.add('active')
+    }
   });
 }

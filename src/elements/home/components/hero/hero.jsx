@@ -23,7 +23,7 @@ export function Hero() {
     });
 
     return (
-        <main className="hero" id="hero" style={{ backgroundImage: `url(${BackgroundText})` }}>
+        <section className="hero" id="hero" style={{ backgroundImage: `url(${BackgroundText})` }}>
             <Fade duration={2000}>
                 <div className="info">
                     <h2 className="info-title">Digitaliza tu <span ref={el}></span></h2>
@@ -35,6 +35,6 @@ export function Hero() {
                     <img className="img-hero" src={ImagenHero} alt="Hero"/>
                 </div>
             </Fade>
-        </main>
+        </section>
     );
 }

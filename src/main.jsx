@@ -7,8 +7,7 @@ import {
 } from "react-router-dom";
 import { Home } from './elements/home/home';
 import { Diseno } from './elements/services/diseno-web'
-import { Navbar } from './elements/navbar/navbar';
-import {Contact } from './elements/contact/contact'
+import { Navbar, ResponsiveNav, ActiveLinkNav } from './elements/navbar/navbar';
 import { Footer } from './elements/footer/footer';
 
 const router = createBrowserRouter([
@@ -26,7 +25,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
     <RouterProvider router={router} />
-    <Contact />
     <Footer />
   </React.StrictMode>,
 )
+
+ResponsiveNav();
+ActiveLinkNav();

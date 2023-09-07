@@ -108,4 +108,36 @@
     line-height: normal;
     padding-bottom: 20px;
 }
+@media (max-width: 768px){
+    .service-item-img{
+        height: 150px;
+    }
+    .service-item-title{
+        font-size: 18px;
+    }
+    .service-item-desc{
+        font-size: 14px;
+    }
+    .service-item-info{
+        padding: 0 5px 0 5px;
+    }
+}
 
+@media (max-width: 500px){
+    .service-item-img{
+        display: none;
+    }
+    .services-p{
+        text-align: center;
+        padding: 0;
+    }
+    .service-item-title{
+        text-align: center;
+    }
+    .service-item-desc{
+        text-align: center;
+    }
+    .services-list{
+        padding: 15px 0 15px 0;
+    }
+}

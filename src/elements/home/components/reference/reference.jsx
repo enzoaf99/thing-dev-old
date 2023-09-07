@@ -64,7 +64,7 @@ export function Reference() {
         ]
     };
     return (
-        <div className="cont-refe" style={{ backgroundImage: `url(${BackgroundText})` }}>
+        <section id="reference" className="cont-refe" style={{ backgroundImage: `url(${BackgroundText})` }}>
             <Fade duration={2000}>
                 <div className="title-rf">
                     <h1 className="rf-h1">Clientes y Socios</h1>
@@ -89,6 +89,6 @@ export function Reference() {
                     </div>
                 </div>
             </Fade>
-        </div>
+        </section>
     )
 }
