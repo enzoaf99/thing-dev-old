@@ -7,7 +7,7 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Fade from 'react-reveal/Fade';
-import BackgroundText from '../../../../assets/BackgroundText.png'
+import BackgroundText from '../../../../assets/home/hero/BackgroundText.png'
 
 
 export function Reference() {
