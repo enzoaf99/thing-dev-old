@@ -3,9 +3,9 @@ import aboutimg from '../../../assets/home/services/about-img.svg'
 import ImagenServicio1 from '../../../assets/home/services/ImagenServicio1.png'
 import ImagenServicio2 from '../../../assets/home/services/ImagenServicio2.png'
 import ImagenServicio3 from '../../../assets/home/services/ImagenServicio3.png'
-import iconservicio1 from '../../../assets/home/services/web0.png'
-import iconservicio2 from '../../../assets/home/services/database.png'
-import iconservicio3 from '../../../assets/home/services/fix.png'
+import iconservicio1 from '../../../assets/home/services/web0.svg'
+import iconservicio2 from '../../../assets/home/services/database.svg'
+import iconservicio3 from '../../../assets/home/services/fix.svg'
 export function Services() {
     return (
         <section className="service-section bg-black" id="service">
@@ -74,36 +74,53 @@ export function Services() {
             <Fade duration={2000}>
                 <div className='container pt-5 text-center'>
                     <h2 className="fw-bolder">Nuestros servicios</h2>
-                    <h3 className="fw-light fs-6 ">Haz click en cualquiera de las tarjetas para mas información</h3>
+                    <h3 className="fw-lighter  fs-6  text-white">Haz click en cualquiera de las tarjetas para mas información</h3>
                 </div>
             </Fade>
             <Fade duration={2000}>
-                <div className="">
-                    <div className="">
-                        <img className="" src={iconservicio1} alt="Diseño" />
-                        <p className="">Diseño web desde Ø</p>
-                        <p className="">Contarás con asesoramiento de nuestro equipo para que tu página se adapte a las necesidades y objetivo de tu proyecto/negocio.</p>
-                        <a href="/diseno-web" className="">+ info</a>
-                    </div>
-                    <div className="">
-                        <img className="" src={iconservicio2} alt="Hosting" />
-                        <p className="">Hosting</p>
-                        <p className="">Ofrecemos alojamiento para tu pagina web y asesoramiento para las instalaciones o migraciones de tus proyectos.</p>
-                        <a href="#" className="">+ info</a>
-                    </div>
-                    <div className="">
-                        <img className="" src={iconservicio3} alt="Mantenimiento" />
-                        <p className="">Mantenimiento y mejoras</p>
-                        <p className="">Si ya tienes una página web y necesita manteniendo, soporte o mejoras, tenemos un equipo de desarrollo que se encargará de la puesta a punto.</p>
-                        <a href="#" className="">+ info</a>
+                <div className="container">
+                    <div className='row'>
+                        <div className="col">
+                            <div className='card align-items-center justify-content-center text-center m-2 p-2'>
+                                <img className="icon mt-3 mb-3" src={iconservicio1} alt="Diseño" />
+                                <p className="text-white fs-5">Diseño web desde Ø</p>
+                                <p className="text-white fs-6">Contarás con asesoramiento de nuestro equipo para que tu página se adapte a las necesidades y objetivo de tu proyecto/negocio.</p>
+                                <a href="#" className="btn btn-pers">+ info</a>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className='card align-items-center justify-content-center text-center m-2 p-2'>
+                                <img className="" src={iconservicio2} alt="Hosting" />
+                                <p className="text-white fs-5">Hosting</p>
+                                <p className="text-white fs-6">Ofrecemos alojamiento para tu pagina web y asesoramiento para las instalaciones o migraciones de tus proyecto.</p>
+                                <a href="#" className="btn btn-pers">+ info</a>
+                            </div>
+                        </div>
+                        <div className="col">
+                            <div className='card align-items-center justify-content-center text-center m-2 p-2'>
+                                <img className="" src={iconservicio3} alt="Mantenimiento" />
+                                <p className="text-white fs-5">Mantenimiento y mejoras</p>
+                                <p className="text-white fs-6">Si ya tienes una página web y necesita manteniendo, soporte o mejoras, tenemos un equipo de desarrollo que se encargará de la puesta a punto.</p>
+                                <a href="#" className="btn btn-pers">+ info</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </Fade>
             <Fade duration={2000}>
-                <div className="">
-                    <img className="" src={ImagenServicio1} alt="Diseño" />
-                    <img className="" src={ImagenServicio2} alt="Hosting" />
-                    <img className="" src={ImagenServicio3} alt="Mantenimiento" />
+                <div className="container p-5 ">
+                    <div className='row justify-content-around '>
+                        <div className='col-3'>
+                            <img className="img-fluid" src={ImagenServicio1} alt="Diseño" />
+                        </div>
+                        <div className='col-3'>
+                            <img className="img-fluid" src={ImagenServicio2} alt="Hosting" />
+                        </div>
+                        <div className='col-3'>
+                            <img className="img-fluid" src={ImagenServicio3} alt="Mantenimiento" />
+                        </div>
+                    </div>
+
                 </div>
             </Fade>
         </section>

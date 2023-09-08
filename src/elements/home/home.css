@@ -44,4 +44,16 @@ button:focus {
     box-shadow: none !important;
 }
 
+.icon {
+    width: 40px;
+    color: #4E6EF1;
+}
+
+.service-section .card {
+    background-color: #000D12;
+}
+
+.service-section .card{
+    min-height: 300px;
+}
 /* Service start */
