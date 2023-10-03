@@ -23,7 +23,7 @@ export function Hero() {
 
     return (
         <section className="container-fluid" id="hero" style={{ backgroundImage: `url(${BackgroundText})` }}>
-            <Fade duration={2000}>
+            <Fade duration={4000}>
                 <div className='container-fluid hero-text'>
                     <div className='row justify-content-center pb-5 pt-5'>
                         <div className='m-xl-auto col-xl-4 col-md-10 pb-5'>

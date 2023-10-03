@@ -11,8 +11,10 @@
   },
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
+    "bootstrap": "^5.3.1",
     "firebase-tools": "^12.4.8",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
     "react-reveal": "^1.2.2",

@@ -6,7 +6,9 @@ import ImagenServicio3 from '../../../assets/home/services/ImagenServicio3.png'
 import iconservicio1 from '../../../assets/home/services/web0.svg'
 import iconservicio2 from '../../../assets/home/services/database.svg'
 import iconservicio3 from '../../../assets/home/services/fix.svg'
+
 export function Services() {
+
     return (
         <section className="service-section bg-black" id="service">
             <Fade duration={2000}>
@@ -90,7 +92,7 @@ export function Services() {
                         </div>
                         <div className="col">
                             <div className='card align-items-center justify-content-center text-center m-2 p-2'>
-                                <img className="" src={iconservicio2} alt="Hosting" />
+                                <img className="icon mt-3 mb-3" src={iconservicio2} alt="Hosting" />
                                 <p className="text-white fs-5">Hosting</p>
                                 <p className="text-white fs-6">Ofrecemos alojamiento para tu pagina web y asesoramiento para las instalaciones o migraciones de tus proyecto.</p>
                                 <a href="#" className="btn btn-pers">+ info</a>
@@ -98,7 +100,7 @@ export function Services() {
                         </div>
                         <div className="col">
                             <div className='card align-items-center justify-content-center text-center m-2 p-2'>
-                                <img className="" src={iconservicio3} alt="Mantenimiento" />
+                                <img className="icon mt-3 mb-3" src={iconservicio3} alt="Mantenimiento" />
                                 <p className="text-white fs-5">Mantenimiento y mejoras</p>
                                 <p className="text-white fs-6">Si ya tienes una página web y necesita manteniendo, soporte o mejoras, tenemos un equipo de desarrollo que se encargará de la puesta a punto.</p>
                                 <a href="#" className="btn btn-pers">+ info</a>
