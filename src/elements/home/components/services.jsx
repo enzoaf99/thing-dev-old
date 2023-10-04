@@ -12,12 +12,12 @@ export function Services() {
     return (
         <section className="service-section bg-black" id="service">
             <Fade duration={2000}>
-                <div className="container-fluid pt-lg-5 pb-5 ">
+                <div className="container p-5">
                     <div className="row justify-content-center">
-                        <div class="col-4">
+                        <div class="col-lg-6 pb-5 ">
                             <img className="img-fluid" src={aboutimg} alt="about img" />
                         </div>
-                        <div class="col-4">
+                        <div class="col-lg-6">
                             <h1 className="fw-bolder fs-2 pb-4">Código de calidad, soluciones para tu empresa</h1>
                             <p className="text-white pb-4">En ThingDev nos apasiona la programación y estamos comprometidos a brindar soluciones digitales de alta calidad a empresas de todos los tamaños. Con nuestra dedicación, experiencia y compromiso con la innovación, puede estar seguro de que obtendrá los mejores resultados.</p>
                             <div className="accordion" id="accordionExample">
@@ -82,7 +82,7 @@ export function Services() {
             <Fade duration={2000}>
                 <div className="container">
                     <div className='row'>
-                        <div className="col">
+                    <div className="col-lg-4 p-5 p-lg-2">
                             <div className='card align-items-center justify-content-center text-center m-2 p-2'>
                                 <img className="icon mt-3 mb-3" src={iconservicio1} alt="Diseño" />
                                 <p className="text-white fs-5">Diseño web desde Ø</p>
@@ -90,7 +90,7 @@ export function Services() {
                                 <a href="#" className="btn btn-pers">+ info</a>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col-lg-4 p-5 p-lg-2">
                             <div className='card align-items-center justify-content-center text-center m-2 p-2'>
                                 <img className="icon mt-3 mb-3" src={iconservicio2} alt="Hosting" />
                                 <p className="text-white fs-5">Hosting</p>
@@ -98,7 +98,7 @@ export function Services() {
                                 <a href="#" className="btn btn-pers">+ info</a>
                             </div>
                         </div>
-                        <div className="col">
+                        <div className="col-lg-4 p-5 p-lg-2">
                             <div className='card align-items-center justify-content-center text-center m-2 p-2'>
                                 <img className="icon mt-3 mb-3" src={iconservicio3} alt="Mantenimiento" />
                                 <p className="text-white fs-5">Mantenimiento y mejoras</p>
