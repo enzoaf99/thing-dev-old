@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './main.css'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
@@ -9,6 +10,7 @@ import { Home } from './elements/home/home';
 import { Diseno } from './elements/services/diseno-web'
 import { Navbar, ResponsiveNav, ActiveLinkNav } from './elements/navbar/navbar';
 import { Footer } from './elements/footer/footer';
+
 
 const router = createBrowserRouter([
   {
