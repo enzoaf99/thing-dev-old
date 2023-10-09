@@ -55,52 +55,52 @@ function ModalService({ desc }) {
                                     <p className='text-subtitle pb-2'>Para esta necesidad nuestro servicio cuenta con las siguientes carcteristicas:</p>
 
                                     <div className='row pb-5'>
-                                        <div className='col-6'>
+                                        <div className='col-12 col-lg-6 text-center text-lg-start'>
                                             <h4 className='title'>Diseño personalizado</h4>
                                             <p className=''>Contamos con el equipo capacitado para realizar el diseño de una web totalmente personalizada, para que tu pagina no sea una genérica mas.</p>
                                         </div>
-                                        <div className='col-6'>
+                                        <div className='col-12 col-lg-6 d-flex justify-content-center'>
                                             <img className="img-fluid" src={disenoimg} alt="Diseño Personalizado" />
                                         </div>
                                     </div>
 
                                     <div className='row pb-5'>
-                                        <div className='col-6'>
+                                        <div className='col-12 col-lg-6 text-center text-lg-start'>
                                             <h4 className='title'>Web responsive</h4>
                                             <p className=''>Diseños que se adaptan automáticamente a diferentes dispositivos y tamaños de pantalla, brindando una experiencia óptima para los usuarios y mejorando la visibilidad en los motores de búsqueda.</p>
                                         </div>
-                                        <div className='col-6'>
+                                        <div className='col-12 col-lg-6 d-flex justify-content-center'>
                                             <img className="img-fluid" src={repsonsiveimg} alt="Web responsive" />
                                         </div>
                                     </div>
 
                                     <div className='row pb-5'>
-                                        <div className='col-6'>
+                                        <div className='col-12 col-lg-6 text-center text-lg-start'>
                                             <h4 className='title'>Hosting</h4>
                                             <p className=''>Nuestro servicio incluye el alojamiento y configuración de esta web de forma gratuita por un año.</p>
                                         </div>
-                                        <div className='col-6'>
+                                        <div className='col-12 col-lg-6 d-flex justify-content-center'>
                                             <img className="img-fluid" src={hostingimg} alt="Hosting" />
                                         </div>
                                     </div>
 
                                     <div className='row pb-5'>
-                                        <div className='col-6'>
+                                        <div className='col-12 col-lg-6 text-center text-lg-start'>
                                             <h4 className='title'>Dominio</h4>
                                             <p className=''>Incluimos el dominio (Por ejemplo: MiDominio.com) para tu web, también la configuración de la misma.</p>
                                         </div>
-                                        <div className='col-6'>
+                                        <div className='col-12 col-lg-6 d-flex justify-content-center'>
                                             <img className="img-fluid" src={dominioimg} alt="Dominio" />
                                         </div>
                                     </div>
 
                                     <div className='row pb-5'>
-                                        <div className='col-6'>
+                                        <div className='col-12 col-lg-6 text-center text-lg-start'>
                                             <h4 className='title'>Soporte técnico</h4>
                                             <p className=''>Contamos con especialistas en soporte técnico para solucionar cualquier inconveniente o duda que se presente post implementación de tu web..</p>
                                         </div>
-                                        <div className='col-6'>
-                                            <img className="img-fluid" src={soporteimg} alt="Soporte técnico" />
+                                        <div className='col-12 col-lg-6 d-flex justify-content-center'>
+                                            <img className="img-fluid mx-auto" src={soporteimg} alt="Soporte técnico" />
                                         </div>
                                     </div>
 

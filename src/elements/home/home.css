@@ -96,7 +96,13 @@ button:focus {
     float: right;
 }
 
-.modal-body{
+@media (min-width: 768px) {
+    .modal-body img{
+        float: none
+    }
+}
+
+.modal-body {
     padding-left: 50px;
     padding-right: 50px;
 }
