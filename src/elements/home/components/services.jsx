@@ -3,6 +3,11 @@ import aboutimg from '../../../assets/home/services/about-img.svg'
 import iconservicio1 from '../../../assets/home/services/web0.svg'
 import iconservicio2 from '../../../assets/home/services/database.svg'
 import iconservicio3 from '../../../assets/home/services/fix.svg'
+import disenoimg from '../../../assets/disenoimg.svg'
+import repsonsiveimg from '../../../assets/responsiveimg.svg'
+import hostingimg from '../../../assets/hostingimg.svg'
+import dominioimg from '../../../assets/dominioimg.svg'
+import soporteimg from '../../../assets/home/services/soporteimg.svg'
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -26,6 +31,7 @@ function ModalService({ desc }) {
                     onHide={handleClose}
                     backdrop="static"
                     keyboard={false}
+                    size='lg'
                 >
                     <Modal.Header closeButton>
                         <img className='img-title' src={iconservicio1} alt="" />
@@ -33,9 +39,9 @@ function ModalService({ desc }) {
                     </Modal.Header>
                     <Modal.Body>
                         <>
-                            <Fade duration={3000}>
+                            <Fade duration={1000}>
                                 <div className='container'>
-                                    <p className='text-black '>
+                                    <p className='text-black'>
                                         En el mundo actual, una página web es imprescindible para cualquier empresa. <br />
                                         Ofrece: <br />
                                         ✅️ Visibilidad constante <br />
@@ -46,86 +52,60 @@ function ModalService({ desc }) {
                                         En síntesis, una página web es esencial para el éxito y la expansión en la era digital.
                                     </p>
 
-                                    <p className='text-black'>Para esta necesidad nuestro servicio cuenta con las siguientes carcteristicas:</p>
+                                    <p className='text-subtitle pb-2'>Para esta necesidad nuestro servicio cuenta con las siguientes carcteristicas:</p>
 
-                                    <h4 className='title'>Diseño personalizado</h4>
-                                    <p className=''>Contamos con el equipo capacitado para realizar el diseño de una web totalmente personalizada, para que tu pagina no sea una genérica mas.</p>
+                                    <div className='row pb-5'>
+                                        <div className='col-6'>
+                                            <h4 className='title'>Diseño personalizado</h4>
+                                            <p className=''>Contamos con el equipo capacitado para realizar el diseño de una web totalmente personalizada, para que tu pagina no sea una genérica mas.</p>
+                                        </div>
+                                        <div className='col-6'>
+                                            <img className="img-fluid" src={disenoimg} alt="Diseño Personalizado" />
+                                        </div>
+                                    </div>
+
+                                    <div className='row pb-5'>
+                                        <div className='col-6'>
+                                            <h4 className='title'>Web responsive</h4>
+                                            <p className=''>Diseños que se adaptan automáticamente a diferentes dispositivos y tamaños de pantalla, brindando una experiencia óptima para los usuarios y mejorando la visibilidad en los motores de búsqueda.</p>
+                                        </div>
+                                        <div className='col-6'>
+                                            <img className="img-fluid" src={repsonsiveimg} alt="Web responsive" />
+                                        </div>
+                                    </div>
+
+                                    <div className='row pb-5'>
+                                        <div className='col-6'>
+                                            <h4 className='title'>Hosting</h4>
+                                            <p className=''>Nuestro servicio incluye el alojamiento y configuración de esta web de forma gratuita por un año.</p>
+                                        </div>
+                                        <div className='col-6'>
+                                            <img className="img-fluid" src={hostingimg} alt="Hosting" />
+                                        </div>
+                                    </div>
+
+                                    <div className='row pb-5'>
+                                        <div className='col-6'>
+                                            <h4 className='title'>Dominio</h4>
+                                            <p className=''>Incluimos el dominio (Por ejemplo: MiDominio.com) para tu web, también la configuración de la misma.</p>
+                                        </div>
+                                        <div className='col-6'>
+                                            <img className="img-fluid" src={dominioimg} alt="Dominio" />
+                                        </div>
+                                    </div>
+
+                                    <div className='row pb-5'>
+                                        <div className='col-6'>
+                                            <h4 className='title'>Soporte técnico</h4>
+                                            <p className=''>Contamos con especialistas en soporte técnico para solucionar cualquier inconveniente o duda que se presente post implementación de tu web..</p>
+                                        </div>
+                                        <div className='col-6'>
+                                            <img className="img-fluid" src={soporteimg} alt="Soporte técnico" />
+                                        </div>
+                                    </div>
+
                                 </div>
                             </Fade>
-                            <div className='services-info'>
-                                <Fade duration={4000}>
-                                    <div className='services-list'>
-                                        <div className='service-item'>
-                                            <div className='service-item-info'>
-                                                <h3 className='service-item-title'>Diseño personalizado</h3>
-                                                <p className='service-item-desc'>Contamos con el equipo capacitado para realizar el
-                                                    diseño
-                                                    de una web totalmente
-                                                    personalizada, para que tu pagina no sea genérica mas.</p>
-                                            </div>
-                                            <img src={iconservicio1} className='service-item-img' alt="Diseño" />
-                                        </div>
-                                    </div>
-                                </Fade>
-                                <Fade duration={4000}>
-                                    <div className='services-list'>
-                                        <div className='service-item'>
-                                            <img src={iconservicio1} className='service-item-img' alt="Responsive" />
-                                            <div className='service-item-info'>
-                                                <h3 className='service-item-title'>Web responsive</h3>
-                                                <p className='service-item-desc'>Diseños que se adaptan automáticamente a diferentes
-                                                    dispositivos y tamaños de pantalla, brindando una experiencia óptima para los
-                                                    usuarios y
-                                                    mejorando la visibilidad en los motores de búsqueda.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Fade>
-                                <Fade duration={4000}>
-                                    <div className='services-list'>
-                                        <div className='service-item'>
-                                            <div className='service-item-info'>
-                                                <h3 className='service-item-title'>Hosting</h3>
-                                                <p className='service-item-desc'>Nuestro servicio incluye el alojamiento y configuración
-                                                    de
-                                                    esta web de forma gratuita por un año.</p>
-                                            </div>
-                                            <img src={iconservicio1} className='service-item-img' alt="Hosting" />
-                                        </div>
-                                    </div>
-                                </Fade>
-                                <Fade duration={4000}>
-                                    <div className='services-list'>
-                                        <div className='service-item'>
-                                            <img src={iconservicio1} className='service-item-img' alt="Dominio" />
-                                            <div className='service-item-info'>
-                                                <h3 className='service-item-title'>Dominio</h3>
-                                                <p className='service-item-desc'>Incluimos el dominio (Por ejemplo: MiDominio.com) para
-                                                    tu
-                                                    web, también la configuración de la misma.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </Fade>
-                                <Fade duration={4000}>
-                                    <div className='services-list'>
-                                        <div className='service-item'>
-                                            <div className='service-item-info'>
-                                                <h3 className='service-item-title'>Soporte técnico</h3>
-                                                <p className='service-item-desc'>Contamos con especialistas en soporte técnico para
-                                                    solucionar cualquier inconveniente o duda que se presente post implementación de tu
-                                                    web.</p>
-                                            </div>
-                                            <img src={iconservicio1} className='service-item-img' alt="Soporte" />
-                                        </div>
-                                    </div>
-                                </Fade>
-                                <Fade duration={4000}>
-                                    <p className='contact-p'>
-                                        Contactanos para mas información ↓
-                                    </p>
-                                </Fade>
-                            </div>
                         </>
                     </Modal.Body>
                 </Modal>

@@ -49,33 +49,36 @@ button:focus {
     color: #4E6EF1;
 }
 
-.service-section .card{
+.service-section .card {
     min-height: 300px;
 }
 
-.service-section .title,.modal-header .title{
+.service-section .title,
+.modal-header .title {
     color: #4E6EF1;
     font-weight: 700;
 }
-.modal-header .title{
+
+.modal-header .title {
     margin: 0;
 }
 
-.modal-header .btn-close{
+.modal-header .btn-close {
     margin-right: 15px;
 }
 
-.modal-header img{
+.modal-header img {
     padding-right: 15px;
 }
 
-.modal-body .title{
+.modal-body .title,
+.modal-body .text-subtitle {
     color: #4E6EF1;
     font-weight: 700;
     font-size: 16px;
 }
 
-.service-section .tarjeta{
+.service-section .tarjeta {
     background-color: white;
     border-radius: 4px;
     padding: 20px;
@@ -84,7 +87,16 @@ button:focus {
     place-items: center;
 }
 
-.tarjeta .btn{
+.tarjeta .btn {
     background-color: #4E6EF1;
     color: white;
+}
+
+.modal-body img {
+    float: right;
+}
+
+.modal-body{
+    padding-left: 50px;
+    padding-right: 50px;
 }
