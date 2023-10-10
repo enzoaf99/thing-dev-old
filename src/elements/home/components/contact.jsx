@@ -1,11 +1,10 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
-import "./contact.css";
-import insta from '../../../../assets/instagram.png'
-import face from '../../../../assets/facebook.png'
-import tw from '../../../../assets/twitter.png'
-import li from '../../../../assets/linkedin.png'
+import insta from '../../../assets/home/contact/instagram.png'
+import face from '../../../assets/home/contact/facebook.png'
+import tw from '../../../assets/home/contact/twitter.png'
+import li from '../../../assets/home/contact/linkedin.png'
 
 export function Contact() {
   const form = useRef();

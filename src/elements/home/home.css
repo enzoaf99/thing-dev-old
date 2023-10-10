@@ -87,6 +87,10 @@ button:focus {
     place-items: center;
 }
 
+.cont-tarjeta {
+    min-height: 240px;
+}
+
 .tarjeta .btn {
     background-color: #4E6EF1;
     color: white;
@@ -97,7 +101,7 @@ button:focus {
 }
 
 @media (min-width: 768px) {
-    .modal-body img{
+    .modal-body img {
         float: none
     }
 }

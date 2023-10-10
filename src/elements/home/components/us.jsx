@@ -1,6 +1,5 @@
-import "./us.css";
 import Fade from 'react-reveal/Fade';
-import AboutUs from '../../../../assets/AboutUs.png'
+import AboutUs from '../../../assets/home/us/AboutUs.png'
 
 export function Us() {
   return (

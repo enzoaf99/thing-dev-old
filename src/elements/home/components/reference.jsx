@@ -1,13 +1,12 @@
-import "./reference.css";
-import Brand1 from '../../../../assets/BlueAppLogo.png'
-import Brand2 from '../../../../assets/GestionAppLogo.png'
-import Brand3 from '../../../../assets/LogoAtentoMusico.png'
-import Brand4 from '../../../../assets/PilonesLogo.png'
+import Brand1 from '../../../assets/home/reference/BlueAppLogo.png'
+import Brand2 from '../../../assets/home/reference/GestionAppLogo.png'
+import Brand3 from '../../../assets/home/reference/LogoAtentoMusico.png'
+import Brand4 from '../../../assets/home/reference/PilonesLogo.png'
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Fade from 'react-reveal/Fade';
-import BackgroundText from '../../../../assets/home/hero/BackgroundText.png'
+import BackgroundText from '../../../assets/home/hero/BackgroundText.png'
 
 
 export function Reference() {

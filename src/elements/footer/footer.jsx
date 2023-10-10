@@ -1,5 +1,4 @@
 import "./footer.css";
-import logo from "../../assets/thingblack.png"
 
 export function Footer() {
     return (
