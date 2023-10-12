@@ -8,6 +8,8 @@ import repsonsiveimg from "../../../assets/home/services/responsiveimg.png";
 import hostingimg from "../../../assets/home/services/hostingimg.png";
 import dominioimg from "../../../assets/home/services/dominioimg.png";
 import soporteimg from "../../../assets/home/services/soporteimg.png";
+import cpanelimg from "../../../assets/home/services/cpanel.png"
+import emailimg from "../../../assets/home/services/email.png"
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
@@ -121,54 +123,38 @@ function ModalService({ desc }) {
             <>
               <Fade duration={1000}>
                 <div className="container">
-                  <p className="text-black">Un hosting de calidad para su página web empresarial es esencial para almacenar los archivos y datos que la componen, permitiendo que esté disponible en línea. Garantiza velocidad de carga, seguridad de la información y un acceso constante, vital para la presencia y funcionalidad óptima de su negocio en la web.</p>
+                  <p className="text-black">Un hosting de calidad para su página web empresarial:<br/><br/>
+                  ✅️<strong>Accesibilidad y Disponibilidad:</strong> Un hosting garantiza que su página web esté accesible en línea las 24 horas del día, los 7 días de la semana, asegurando que los visitantes puedan acceder a su sitio en cualquier momento.<br/>
+                  ✅️<strong>Velocidad y Rendimiento:</strong> Al tener un hosting confiable, su página web cargará rápidamente, lo que mejora la experiencia del usuario y ayuda en la optimización para motores de búsqueda, esencial para el éxito en línea.<br/>
+                  ✅️<strong>Almacenamiento y Seguridad de Datos:</strong> El hosting proporciona un espacio para almacenar todos los archivos, datos y contenido de su sitio web de manera segura. Además, ofrece medidas de seguridad esenciales para proteger su información y la de sus clientes.<br/>
+                  ✅️<strong>Control y Flexibilidad:</strong> Con un hosting propio, usted tiene control total sobre la configuración y personalización de su sitio web, permitiendo adaptarse a las necesidades cambiantes de su empresa y escalar según su crecimiento.</p>
 
                   <p className="text-subtitle pb-2">Para esta necesidad nuestro servicio cuenta con las siguientes carcteristicas:</p>
 
                   <div className="row pb-5">
                     <div className="col-12 col-lg-6 text-center text-lg-start mt-auto mb-auto">
-                      <h4 className="title">Diseño personalizado</h4>
-                      <p className="">Contamos con el equipo capacitado para realizar el diseño de una web totalmente personalizada, para que tu pagina no sea una genérica mas.</p>
+                      <h4 className="title">Acceso a Hosting CPanel</h4>
+                      <p className="">Brindamos el alojamiento y acceso total a tu hosting para que tengas control sobre el mismo, también sobre los archivos y configuraciones hechas.</p>
                     </div>
                     <div className="col-12 col-lg-6 d-flex justify-content-center">
-                      <img className="img-fluid" src={disenoimg} alt="Diseño Personalizado" />
+                      <img className="img-fluid" src={cpanelimg} alt="Acceso a Hosting CPanel" />
                     </div>
                   </div>
 
                   <div className="row pb-5">
                     <div className="col-12 col-lg-6 text-center text-lg-start mt-auto mb-auto">
-                      <h4 className="title">Web responsive</h4>
-                      <p className="">Diseños que se adaptan automáticamente a diferentes dispositivos y tamaños de pantalla, brindando una experiencia óptima para los usuarios y mejorando la visibilidad en los motores de búsqueda.</p>
+                      <h4 className="title">Correo Electrónico</h4>
+                      <p className="">Nuestro servicio incluye casilla de correo electrónico para que puedas configurar tus usuarios con tu dominio.</p>
                     </div>
                     <div className="col-12 col-lg-6 d-flex justify-content-center">
-                      <img className="img-fluid" src={repsonsiveimg} alt="Web responsive" />
-                    </div>
-                  </div>
-
-                  <div className="row pb-5">
-                    <div className="col-12 col-lg-6 text-center text-lg-start mt-auto mb-auto">
-                      <h4 className="title">Hosting</h4>
-                      <p className="">Nuestro servicio incluye el alojamiento y configuración de esta web de forma gratuita por un año.</p>
-                    </div>
-                    <div className="col-12 col-lg-6 d-flex justify-content-center">
-                      <img className="img-fluid" src={hostingimg} alt="Hosting" />
-                    </div>
-                  </div>
-
-                  <div className="row pb-5">
-                    <div className="col-12 col-lg-6 text-center text-lg-start mt-auto mb-auto">
-                      <h4 className="title">Dominio</h4>
-                      <p className="">Incluimos el dominio (Por ejemplo: MiDominio.com) para tu web, también la configuración de la misma.</p>
-                    </div>
-                    <div className="col-12 col-lg-6 d-flex justify-content-center">
-                      <img className="img-fluid" src={dominioimg} alt="Dominio" />
+                      <img className="img-fluid" src={emailimg} alt="Correo Electrónico" />
                     </div>
                   </div>
 
                   <div className="row pb-5">
                     <div className="col-12 col-lg-6 text-center text-lg-start mt-auto mb-auto">
                       <h4 className="title">Soporte técnico</h4>
-                      <p className="">Contamos con especialistas en soporte técnico para solucionar cualquier inconveniente o duda que se presente post implementación de tu web..</p>
+                      <p className="">Contamos con especialistas en soporte técnico para solucionar cualquier inconveniente o duda que se presente post implementación de tu hosting.</p>
                     </div>
                     <div className="col-12 col-lg-6 d-flex justify-content-center">
                       <img className="img-fluid mx-auto" src={soporteimg} alt="Soporte técnico" />
