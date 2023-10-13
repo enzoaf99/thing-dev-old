@@ -110,3 +110,23 @@ button:focus {
     padding-left: 50px;
     padding-right: 50px;
 }
+
+/* Service end */
+
+/* Us start */
+
+.section-us .title {
+    color: #4E6EF1;
+    font-weight: 700;
+}
+
+.section-us .link {
+    color: #4E6EF1;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.section-us img {
+    float: left;
+    margin: auto;
+}
