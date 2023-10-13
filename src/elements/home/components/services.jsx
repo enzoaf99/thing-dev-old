@@ -10,6 +10,8 @@ import dominioimg from "../../../assets/home/services/dominioimg.png";
 import soporteimg from "../../../assets/home/services/soporteimg.png";
 import cpanelimg from "../../../assets/home/services/cpanel.png"
 import emailimg from "../../../assets/home/services/email.png"
+import iconservicio4 from "../../../assets/home/services/phone.svg";
+import mobileappdev from "../../../assets/home/services/mobileappdev.png";
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
@@ -168,6 +170,112 @@ function ModalService({ desc }) {
       </>
     );
   }
+  if (desc == 3) {
+    return (
+      <>
+        <Button variant="" onClick={handleShow}>
+          + info
+        </Button>
+
+        <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} size="lg">
+          <Modal.Header closeButton>
+            <img className="img-title" src={iconservicio3} alt="" />
+            <h1 className="title fs-5">Mantenimiento y mejoras</h1>
+          </Modal.Header>
+          <Modal.Body>
+            <>
+              <Fade duration={1000}>
+                <div className="container">
+                  <p className="text-black">Si ya contas con una página web podemos ayudarte a mejorarla.</p>
+
+                  <p className="text-subtitle pb-2">Para esta necesidad nuestro servicio cuenta con las siguientes carcteristicas:</p>
+
+                  <div className="row pb-5">
+                    <div className="col-12 col-lg-6 text-center text-lg-start mt-auto mb-auto">
+                      <h4 className="title">Rediseño web</h4>
+                      <p className="">Contamos con un equipo de diseñadores web que pueden asesorarte a mejorar tu web existente.</p>
+                    </div>
+                    <div className="col-12 col-lg-6 d-flex justify-content-center">
+                      <img className="img-fluid" src={disenoimg} alt="Rediseño web" />
+                    </div>
+                  </div>
+
+                  <div className="row pb-5">
+                    <div className="col-12 col-lg-6 text-center text-lg-start mt-auto mb-auto">
+                      <h4 className="title">Mejoras SEO</h4>
+                      <p className="">Optimizamos los aspectos clave de tu sitio web para mejorar su visibilidad en los resultados de búsqueda. Esto incluye ajustes en palabras clave, estructura de enlaces, contenido relevante y estrategias para aumentar tráfico orgánico y posicionamiento en buscadores.</p>
+                    </div>
+                    <div className="col-12 col-lg-6 d-flex justify-content-center">
+                      <img className="img-fluid" src={dominioimg} alt="Mejoras SEO"/>
+                    </div>
+                  </div>
+
+                  <div className="row pb-5">
+                    <div className="col-12 col-lg-6 text-center text-lg-start mt-auto mb-auto">
+                      <h4 className="title">Soporte técnico</h4>
+                      <p className="">Contamos con especialistas en soporte técnico para solucionar cualquier inconveniente o duda que se presente de tu sitio web.</p>
+                    </div>
+                    <div className="col-12 col-lg-6 d-flex justify-content-center">
+                      <img className="img-fluid mx-auto" src={soporteimg} alt="Soporte técnico" />
+                    </div>
+                  </div>
+                </div>
+              </Fade>
+            </>
+          </Modal.Body>
+        </Modal>
+      </>
+    );
+  }
+  if (desc == 4) {
+    return (
+      <>
+        <Button variant="" onClick={handleShow}>
+          + info
+        </Button>
+
+        <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false} size="lg">
+          <Modal.Header closeButton>
+            <img className="img-title" src={iconservicio4} alt="" />
+            <h1 className="title fs-5">Apps personalizadas</h1>
+          </Modal.Header>
+          <Modal.Body>
+            <>
+              <Fade duration={1000}>
+                <div className="container">
+                  <p className="text-black">Tener una <strong>aplicación móvil</strong> es crucial en el mundo digital.<br/><br/>
+                  Para los <strong>negocios digitales</strong>, brinda una vía directa para interactuar con clientes, fomenta la retención y lealtad, mejora la visibilidad y permite ofrecer servicios personalizados. <br/><br/>
+                  Para <strong>uso empresarial interno</strong>, optimiza procesos, facilita la comunicación y colaboración entre empleados, aumentando la eficiencia operativa y la productividad. En resumen, una aplicación móvil es esencial tanto para la presencia en el mercado como para mejorar la eficacia interna de una empresa.</p>
+
+                  <p className="text-subtitle pb-2">Para esta necesidad nuestro servicio cuenta con las siguientes carcteristicas:</p>
+
+                  <div className="row pb-5">
+                    <div className="col-12 col-lg-6 text-center text-lg-start mt-auto mb-auto">
+                      <h4 className="title">Diseño App Móvil</h4>
+                      <p className="">Este servicio incluye la creación de la interfaz visual y la experiencia del usuario. La definición de la estructura, diseño de pantallas, selección de colores y tipografías, asegurando una apariencia atractiva y funcional. Nos centramos en la usabilidad, intuición y coherencia visual para garantizar que los usuarios encuentren la aplicación fácil de usar y visualmente atractiva, lo que contribuye al éxito y aceptación en el mercado móvil.</p>
+                    </div>
+                    <div className="col-12 col-lg-6 d-flex justify-content-center">
+                      <img className="img-fluid" src={mobileappdev} alt="Diseño App Móvil" />
+                    </div>
+                  </div>
+
+                  <div className="row pb-5">
+                    <div className="col-12 col-lg-6 text-center text-lg-start mt-auto mb-auto">
+                      <h4 className="title">Soporte técnico</h4>
+                      <p className="">Contamos con especialistas en soporte técnico para solucionar cualquier inconveniente o duda que se presente de tu aplicación móvil.</p>
+                    </div>
+                    <div className="col-12 col-lg-6 d-flex justify-content-center">
+                      <img className="img-fluid mx-auto" src={soporteimg} alt="Soporte técnico" />
+                    </div>
+                  </div>
+                </div>
+              </Fade>
+            </>
+          </Modal.Body>
+        </Modal>
+      </>
+    );
+  }
 }
 
 function Acordeon() {
@@ -265,17 +373,17 @@ export function Services() {
                   <img className="icon mb-2" src={iconservicio3} alt="Mantenimiento" />
                   <p className="title fs-5">Mantenimiento y mejoras</p>
                   <p className="text-black fs-6">Si necesitas mantenimiento o mejoras, tenemos un equipo de desarrollo que se encargará ello.</p>
-                  <ModalService desc={1} />
+                  <ModalService desc={3} />
                 </div>
               </div>
             </div>
             <div className="col-12 col-lg-6 p-5">
               <div className="tarjeta">
                 <div>
-                  <img className="icon mb-2" src={iconservicio3} alt="Mantenimiento" />
+                  <img className="icon mb-2" src={iconservicio4} alt="Mantenimiento" />
                   <p className="title fs-5">Apps personalizadas</p>
                   <p className="text-black fs-6">Contamos con experiencia en desarrollo de Apps de escritorio o para móviles.</p>
-                  <ModalService desc={1} />
+                  <ModalService desc={4} />
                 </div>
               </div>
             </div>
