@@ -118,6 +118,7 @@ button:focus {
 .section-us .title {
     color: #4E6EF1;
     font-weight: 700;
+    font-size: 2rem;
 }
 
 .section-us .link {
@@ -137,10 +138,11 @@ button:focus {
 .section-reference .title {
     color: #4E6EF1;
     font-weight: 700;
+    font-size: 2rem;
 }
 
 .section-reference .subtitle {
     font-weight: 100;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
 }

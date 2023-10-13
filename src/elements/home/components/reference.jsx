@@ -57,7 +57,7 @@ export function Reference() {
           <div className="mt-5">
             <div className="">
               <Slider {...settings}>
-                <div>
+                <div className="align-middle">
                   <a className="" target="_blank" href="http://blueapp.com.ar">
                     <img className="img-logo1" src={Brand1} alt="BlueApp" />
                   </a>
