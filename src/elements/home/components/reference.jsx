@@ -58,23 +58,23 @@ export function Reference() {
             <div className="">
               <Slider {...settings}>
                 <div className="align-middle">
-                  <a className="" target="_blank" href="http://blueapp.com.ar">
-                    <img className="img-logo1" src={Brand1} alt="BlueApp" />
+                  <a target="_blank" href="http://blueapp.com.ar">
+                    <img src={Brand1} alt="BlueApp" />
                   </a>
                 </div>
                 <div>
-                  <a className="" target="_blank" href="http://pilonesgyh.com.ar">
-                    <img className="img-logo2" src={Brand4} alt="PilonesGYH" />
+                  <a target="_blank" href="http://pilonesgyh.com.ar">
+                    <img src={Brand4} alt="PilonesGYH" />
                   </a>
                 </div>
                 <div>
-                  <a className="" href="https://atentomusico.com/">
-                    <img className="img-logo3" src={Brand3} alt="Atento Musico" />
+                  <a href="https://atentomusico.com/">
+                    <img src={Brand3} alt="Atento Musico" />
                   </a>
                 </div>
                 <div>
-                  <a className="" href="http://gestionapp.com/">
-                    <img className="img-logo4" src={Brand2} alt="GestionApp" />
+                  <a href="http://gestionapp.com/">
+                    <img src={Brand2} alt="GestionApp" />
                   </a>
                 </div>
               </Slider>

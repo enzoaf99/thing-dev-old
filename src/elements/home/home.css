@@ -146,3 +146,22 @@ button:focus {
     font-size: 15px;
     color: white;
 }
+/* Reference end */
+
+/* Contact start */
+.section-cont .title {
+    color: #4E6EF1;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.section-cont .subtitle {
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
+}
+
+.section-cont .btn{
+    background-color: #4E6EF1;
+    color: white;
+}
