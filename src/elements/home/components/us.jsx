@@ -9,7 +9,7 @@ export function Us() {
           <div className="row">
             <div className="col-12 col-lg-6">
               <h1 className="title">ThingDev</h1>
-              <h2 className="fs-5">Código de calidad, soluciones para tu empresa</h2>
+              <h2 className="fs-5 text-white">Código de calidad, soluciones para tu empresa</h2>
               <p className="text-white">En ThingDev nos apasiona la programación y estamos comprometidos a brindar soluciones digitales de alta calidad a empresas de todos los tamaños. Con nuestra dedicación, experiencia y compromiso con la innovación, puede estar seguro de que obtendrá los mejores resultados. ¡Contáctanos hoy mismo y descubre lo que podemos hacer por vos!</p>
               <a href="#" className="link">
                 Mas sobre nosotros y nuestro equipo →
