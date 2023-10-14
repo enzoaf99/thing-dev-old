@@ -58,22 +58,22 @@ export function Reference() {
             <div className="">
               <Slider {...settings}>
                 <div className="align-middle">
-                  <a target="_blank" href="http://blueapp.com.ar">
+                  <a className="d-flex justify-content-center align-items-center" target="_blank" href="http://blueapp.com.ar">
                     <img src={Brand1} alt="BlueApp" />
                   </a>
                 </div>
                 <div>
-                  <a target="_blank" href="http://pilonesgyh.com.ar">
+                  <a className="d-flex justify-content-center align-items-center" target="_blank" href="http://pilonesgyh.com.ar">
                     <img src={Brand4} alt="PilonesGYH" />
                   </a>
                 </div>
                 <div>
-                  <a href="https://atentomusico.com/">
+                  <a className="d-flex justify-content-center align-items-center" href="https://atentomusico.com/">
                     <img src={Brand3} alt="Atento Musico" />
                   </a>
                 </div>
                 <div>
-                  <a href="http://gestionapp.com/">
+                  <a className="d-flex justify-content-center align-items-center" href="http://gestionapp.com/">
                     <img src={Brand2} alt="GestionApp" />
                   </a>
                 </div>

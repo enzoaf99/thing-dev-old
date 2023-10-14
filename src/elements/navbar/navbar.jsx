@@ -1,5 +1,5 @@
 import "./navbar.css";
-import logo from "../../assets/navbar/thing.png"
+import logo from "../../assets/navbar/thing.png";
 
 export function Navbar() {
   return (
@@ -58,14 +58,12 @@ export function ResponsiveNav() {
   });
 }
 
-
 export function ActiveLinkNav() {
   window.addEventListener("load", function () {
-
+    let seccionActual = null;
     this.window.onscroll = () => {
       function obtenerIdDeSeccion() {
         const secciones = document.querySelectorAll("section"); // Cambia "section" al selector que estés utilizando para tus secciones
-        let seccionActual = null;
 
         for (const seccion of secciones) {
           const rect = seccion.getBoundingClientRect();
@@ -75,14 +73,13 @@ export function ActiveLinkNav() {
             break; // Rompe el bucle una vez que se encuentra la sección actual
           }
         }
-
         return seccionActual;
       }
 
       // Uso de la función para obtener el ID de la sección actual
       const idDeSeccionActual = obtenerIdDeSeccion();
-      document.querySelector("header nav ul li a.active").classList.remove('active')
-      document.querySelector("[href*="+ idDeSeccionActual +"]").classList.add('active')
-    }
+      document.querySelector("header nav ul li a.active").classList.remove("active");
+      document.querySelector("[href*=" + idDeSeccionActual + "]").classList.add("active");
+    };
   });
 }
